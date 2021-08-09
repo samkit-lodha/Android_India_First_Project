@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Android India First Project</string>
+    <string name="toastMessage">Hello Toast!</string>
+</resources>

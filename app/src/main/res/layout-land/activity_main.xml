@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="Toast"
+        android:onClick="toastClicked"
+        app:backgroundTint="#17D2E3" />
+
+    <TextView
+        android:id="@+id/countText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/zeroButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="Zero"
+        android:onClick="zeroClicked"
+        app:backgroundTint="#17D2E3" />
+
+    <Button
+        android:id="@+id/countButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="Count"
+        android:onClick="countClicked"
+        app:backgroundTint="#17D2E3" />
+
+</LinearLayout>
